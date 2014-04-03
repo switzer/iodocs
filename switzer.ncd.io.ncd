@@ -1,6 +1,6 @@
 { "nc_version": 1.0, "nc_format": "json" },
 {
-  "serial": 2013129701,
+  "serial": 2014040101,
   "ttl": 86400,
   "contact": "support.namecast.net",
   "data": {
