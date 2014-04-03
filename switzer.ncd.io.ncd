@@ -1,0 +1,23 @@
+{ "nc_version": 1.0, "nc_format": "json" },
+{
+  "serial": 2013129701,
+  "ttl": 86400,
+  "contact": "support.namecast.net",
+  "data": {
+    "": {
+     "ns": [ "ns1.ncd.io", "ns2.ncd.io", "ns3.ncd.io" ],
+      "mx": [{ "mx": "aspmx.l.google.com.", "preference": 1},
+      { "mx": "alt1.aspmx.l.google.com.", "preference": 5},
+      { "mx": "alt2.aspmx.l.google.com.", "preference": 5},
+      { "mx": "aspmx2.googlemail.com.", "preference": 10},
+      { "mx": "aspmx3.googlemail.com.", "preference": 10},
+      { "mx": "aspmx4.googlemail.com.", "preference": 10},
+      { "mx": "aspmx5.googlemail.com.", "preference": 10}],
+     "txt": [{ "txt": "v=spf1 mx a:example.com -all", "weight": 1}],
+      "a": [["86.75.30.9",1]]
+    },
+    "www": {
+      "cname": "www.switzer.org."
+    }
+  }
+}
